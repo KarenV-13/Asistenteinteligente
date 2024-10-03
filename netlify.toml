@@ -1,3 +1,0 @@
-[build]
-  publish = "public"  # La carpeta donde están tus archivos HTML, CSS, JS
-  functions = "netlify/functions"  # Ruta a la carpeta de funciones serverless
