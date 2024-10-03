@@ -1,0 +1,107 @@
+/* Reiniciar estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5DC; /* Color beige */
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Cuadro de texto */
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    resize: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Botón de análisis y grabación */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #D8BFD8; /* Lila pastel */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover en el botón */
+button:hover {
+    background-color: #CDAACD; /* Un poco más oscuro al hacer hover */
+}
+
+/* Estado de grabación de audio */
+#record-status {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #888;
+}
+
+/* Área de resultados */
+#result {
+    margin-top: 30px;
+}
+
+/* Estilo de los títulos de la sección de resultados */
+#result h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Lista de temas principales */
+#topics-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#topics-list li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Información ampliada */
+#expanded-info p {
+    margin-bottom: 12px;
+    color: #666;
+    line-height: 1.6;
+}
